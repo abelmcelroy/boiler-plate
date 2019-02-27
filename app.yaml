@@ -1,0 +1,10 @@
+runtime: nodejs8
+entrypoint: node app/server/index.js
+
+# these are the basic resources that most apps need, but you could use more or fewer
+env_variables:
+  SQL_USER: #YOUR INFO HERE
+  SQL_PASSWORD: #YOUR INFO HERE
+  SQL_DATABASE: #YOUR INFO HERE
+  SQL_INSTANCE_CONNECTION_NAME: #YOUR INFO HERE
+  STORAGE_BUCKET_NAME: #YOUR INFO HERE
